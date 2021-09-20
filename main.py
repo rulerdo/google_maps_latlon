@@ -102,7 +102,7 @@ def get_token_mongodb():
 
 if __name__ == '__main__':
 
-    """Ejecuta las funciones si el archivo es ejecutado como script
+    """Corre las funciones si el archivo es ejecutado como script
     Utiliza tabulate para imprimir los resultados en formato de tabla
     """
 
