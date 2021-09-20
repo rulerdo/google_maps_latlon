@@ -27,7 +27,7 @@ Puedes editar el archivo address_list.txt para cambiar los parametros de busqued
 
 ## MongoDB
 
-Es necesario contar con un usuario y contraseña para obtener el token, se sugiere contactar al autor para obtener un usuario temporal o reemplazar esta funcion con tu token personal
+Es necesario contar con un usuario y contraseña para obtener el token de google maps, se sugiere contactar al autor para obtener un usuario temporal o reemplazar esta funcion con tu token personal
 
 # Contacto
 
