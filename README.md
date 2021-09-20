@@ -1,4 +1,4 @@
-# Google Maps Latitud y Longigud
+# Google Maps Latitud y Longitud
 
 ## Descripcion
 Script en Python3 que utiliza el API de Google Maps
