@@ -2,9 +2,13 @@
 
 ## Descripcion
 Script en Python3 que utiliza el API de Google Maps
+
 Obtiene la latitud y longitud de direcciones provistas por el usuario
+
 El script puede leer un archivo TXT con una lista de direcciones o el usuario puede dar 1 direccion para buscar
+
 Google Maps requiere de un token (API Key) 
+
 El usuario debe contar con un user y password valido para autenticarse y obtener el Token
 
 ## Instalacion
