@@ -17,17 +17,17 @@ from tabulate import tabulate
 
 def get_latlon(address, API_KEY):
 
-    """Uses Google Maps API to get the latitude, longitude and full address of a user given address
+    """Usa el API de Google Maps para obtener la latitud, longitud y direccion completa de una direccion provista por el usuario
 
     Args:
-        address (str): User provided address to search
-        API_KEY (str): Token obtained from the get_token_mongodb function after users authenticate against the DB
+        address (str): Direccion dada por el usuario
+        API_KEY (str): Token obtenido por la funcion get_token_mongodb
 
     Raises:
-        SystemExit: If google maps API not available it exits the program
+        SystemExit: Finaliza el programa si el API de google maps no esta disponible
 
     Returns:
-        f_response (dict): Dictionary with the 3 parameters lat, lon and f_add
+        f_response (dict): Dictionario con los 3 parametros lat, lon y f_add
     """
 
     GOOGLE_MAPS_API_URL = 'https://maps.googleapis.com/maps/api/geocode/json'
@@ -47,7 +47,7 @@ def get_latlon(address, API_KEY):
         return response
 
     except requests.exceptions.RequestException as e:
-        print('API deGoogle Maps no disponible, por favor intenta de nuevo en unos segundos')
+        print('API de Google Maps no disponible, por favor intenta de nuevo en unos segundos')
         raise SystemExit(e)
 
 
