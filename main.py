@@ -50,7 +50,6 @@ if __name__ == '__main__':
 
     user_input = input('Ingresa las direcciones a buscar separadas por comas: ')
     address_list = user_input.split(',')
-    print(address_list)
     results_list = list()
     results_list.append(('Valor buscado','Latitud','Longitud','Direccion'))
 
