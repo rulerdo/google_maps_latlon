@@ -7,9 +7,9 @@ Obtiene la latitud y longitud de direcciones provistas por el usuario
 
 El script puede leer un archivo TXT con una lista de direcciones o el usuario puede dar 1 direccion para buscar
 
-Google Maps requiere de un token (API Key), este script usa mi token personal guardada en un MongoDB por temas de privacidad
+Google Maps requiere de un token (API Key), este script usa mi token personal guardada en una variable de ambiente
 
-El usuario debe contar con un user y password valido para autenticarse y obtener el Token
+Para poder usar este script es necesario contar con un token de google maps y reemplazar el valor de la variable API_KEY
 
 ## Instalacion
 
@@ -22,12 +22,6 @@ Para instalar clona el repositorio y utiliza el archivo requirements.txt para in
 Usa el archivo main.py para ejecutar el script
 
     python3 main.py
-
-Puedes editar el archivo address_list.txt para cambiar los parametros de busqueda o si lo eliminas el script te preguntara por una direccion a buscar en la terminal
-
-## MongoDB
-
-Es necesario contar con un usuario y contraseña para obtener el token de google maps, se sugiere contactar al autor para obtener un usuario temporal o reemplazar esta funcion con tu token personal
 
 # Contacto
 

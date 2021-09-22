@@ -1,4 +1,2 @@
 tabulate
-pymongo
 requests
-dnspython
